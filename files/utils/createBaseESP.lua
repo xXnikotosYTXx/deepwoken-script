@@ -1,9 +1,9 @@
 SX_VM_CNONE();
-local Maid = sharedRequire('Maid.lua');
-local Services = sharedRequire('Services.lua');
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
 
-local toCamelCase = sharedRequire('toCamelCase.lua');
-local library = sharedRequire('../UILibrary.lua');
+local toCamelCase = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/toCamelCase.lua'),true))();
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
 
 local Players, CorePackages, HttpService = Services:Get('Players', 'CorePackages', 'HttpService');
 local LocalPlayer = Players.LocalPlayer;
