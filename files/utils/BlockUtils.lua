@@ -1,6 +1,6 @@
-local Services = sharedRequire('./Services.lua');
-local library = sharedRequire('../UILibrary.lua');
-local AltManagerAPI = sharedRequire('../classes/AltManagerAPI.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
+local AltManagerAPI = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/AltManagerAPI.lua'),true))();
 local Players, GuiService, HttpService, StarterGui, VirtualInputManager, CoreGui = Services:Get('Players', 'GuiService', 'HttpService', 'StarterGui', 'VirtualInputManager', 'CoreGui');
 local LocalPlayer = Players.LocalPlayer;
 
