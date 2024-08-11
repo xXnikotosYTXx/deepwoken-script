@@ -1,4 +1,4 @@
-local Services = sharedRequire('@utils/Services.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
 local HttpService = Services:Get('HttpService');
 
 local Webhook = {};
