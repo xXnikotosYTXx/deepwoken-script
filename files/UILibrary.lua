@@ -4,15 +4,15 @@ SX_VM_CNONE();
 
 local libraryLoadAt = tick();
 
-local Signal = sharedRequire('utils/Signal.lua');
-local Services = sharedRequire('utils/Services.lua');
-local KeyBindVisualizer = sharedRequire('classes/KeyBindVisualizer.lua');
+local Signal = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Signal.lua'),true))();
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local KeyBindVisualizer = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/KeyBindVisualizer.lua'),true))();
 
 local CoreGui, Players, RunService, TextService, UserInputService, ContentProvider, HttpService, TweenService, GuiService, TeleportService = Services:Get('CoreGui', 'Players', 'RunService', 'TextService', 'UserInputService', 'ContentProvider', 'HttpService', 'TweenService', 'GuiService', 'TeleportService');
 
-local toCamelCase = sharedRequire('utils/toCamelCase.lua');
-local Maid = sharedRequire('utils/Maid.lua');
-local ToastNotif = sharedRequire('@classes/ToastNotif.lua');
+local toCamelCase = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/toCamelCase.lua'),true))();
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
+local ToastNotif = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/ToastNotif.lua'),true))();
 
 local LocalPlayer = Players.LocalPlayer;
 local visualizer;
