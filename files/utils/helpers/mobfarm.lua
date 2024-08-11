@@ -1,7 +1,7 @@
-local Utility = sharedRequire('@utils/Utility.lua');
-local Services = sharedRequire('@Utils/Services.lua');
-local Maid = sharedRequire('@utils/Maid.lua');
-local library = sharedRequire('@UILibrary.lua');
+local Utility = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Utility.lua'),true))();
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
 
 local TweenService, RunService = Services:Get('TweenService', 'RunService');
 local mobfarmHelper = {};
