@@ -1,6 +1,6 @@
-local Services = sharedRequire('@utils/Services.lua');
-local Maid = sharedRequire('@utils/Maid.lua');
-local Signal = sharedRequire('@utils/Signal.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
+local Signal = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Signal.lua'),true))();
 
 local TweenService, UserInputService = Services:Get('TweenService', 'UserInputService');
 
