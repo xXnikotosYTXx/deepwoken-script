@@ -40,7 +40,7 @@ local ReplicatedStorage, Players, RunService, CollectionService, Lighting, UserI
 	'GuiService'
 );
 
-local droppedItemsNames = originalFunctions.jsonDecode(HttpService, sharedRequire('@games/DeepwokenItemsNames.json'));
+local droppedItemsNames = originalFunctions.jsonDecode(HttpService, loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/games/DeepwokenItemsNames.json'),true))());
 
 local LocalPlayer = Players.LocalPlayer;
 local playerMouse = LocalPlayer:GetMouse();
