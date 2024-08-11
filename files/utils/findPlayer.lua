@@ -1,4 +1,4 @@
-local Services = sharedRequire('./Services.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
 local Players = Services:Get('Players');
 
 return function (playerName)
