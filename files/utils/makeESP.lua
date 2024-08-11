@@ -1,7 +1,7 @@
-local Utility = sharedRequire('@utils/Utility.lua');
-local createBaseESP = sharedRequire('@utils/createBaseESP.lua');
-local library = sharedRequire('@UILibrary.lua');
-local toCamelCase = sharedRequire('@utils/toCamelCase.lua');
+local Utility = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Utility.lua'),true))();
+local createBaseESP = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/createBaseESP.lua'),true))();
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
+local toCamelCase = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/toCamelCase.lua'),true))();
 
 local sectionIndex = 1;
 local addedESPSearch = false;
