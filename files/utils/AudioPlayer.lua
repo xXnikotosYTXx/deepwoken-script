@@ -1,6 +1,6 @@
-local Maid = sharedRequire('@utils/Maid.lua');
-local Services = sharedRequire('@utils/Services.lua');
-local library = sharedRequire('@UILibrary.lua');
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
 
 local RunService = Services:Get('RunService');
 
