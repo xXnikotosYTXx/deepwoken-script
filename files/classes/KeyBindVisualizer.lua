@@ -1,6 +1,6 @@
-local Services = sharedRequire('@utils/Services.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
 local UserInputService = Services:Get('UserInputService');
-local Maid = sharedRequire('@utils/Maid.lua');
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
 
 local keybindVisualizer = {};
 keybindVisualizer.__index = keybindVisualizer;
