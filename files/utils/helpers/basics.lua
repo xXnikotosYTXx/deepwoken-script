@@ -1,8 +1,8 @@
-local Services = sharedRequire('@utils/Services.lua');
-local library = sharedRequire('@UILibrary.lua');
-local Maid = sharedRequire('@utils/Maid.lua');
-local ControlModule = sharedRequire('@classes/ControlModule.lua');
-local Utility = sharedRequire('@utils/Utility.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
+local ControlModule = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/ControlModule.lua'),true))();
+local Utility = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Utility.lua'),true))();
 
 local Players, UserInputService, Lighting, RunService = Services:Get('Players', 'UserInputService', 'Lighting', 'RunService');
 local LocalPlayer = Players.LocalPlayer;
