@@ -1,9 +1,9 @@
-local library = sharedRequire('@UILibrary.lua');
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
 
-local Services = sharedRequire('@utils/Services.lua');
-local Signal = sharedRequire('@utils/Signal.lua');
-local ToastNotif = sharedRequire('@classes/ToastNotif.lua');
-local Security = sharedRequire('@utils/Security.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local Signal = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Signal.lua'),true))();
+local ToastNotif = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/ToastNotif.lua'),true))();
+local Security = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Security.lua'),true))();
 
 local UserInputService, TweenService, TextService, ReplicatedStorage, Players, HttpService = Services:Get('UserInputService', 'TweenService', 'TextService', 'ReplicatedStorage', 'Players', 'HttpService');
 local LocalPlayer = Players.LocalPlayer;
