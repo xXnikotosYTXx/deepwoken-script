@@ -3,7 +3,7 @@ local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwok
 local AudioPlayer = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/AudioPlayer.lua'),true))();
 local makeESP = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/makeESP.lua'),true))();
 
-local Utility = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Utility.lua'),true))());
+local Utility = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Utility.lua'),true))();
 local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
 local AnalyticsAPI = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/AnalyticsAPI.lua'),true))();
 
