@@ -1,8 +1,8 @@
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local ReplicatedStorage = game:GetService('ReplicatedStorage');
 
-local Maid = sharedRequire('@/utils/Maid.lua');
-local ToastNotif = sharedRequire('@classes/ToastNotif.lua');
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
+local ToastNotif = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/ToastNotif.lua'),true))();
 
 local function createCirclet(parent, weldPart, cframe, color)
     local circlet = game:GetObjects('rbxassetid://12562484379')[1]:Clone();
