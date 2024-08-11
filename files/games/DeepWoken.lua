@@ -1,25 +1,25 @@
-local library = sharedRequire('../UILibrary.lua');
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
 
-local AudioPlayer = sharedRequire('@utils/AudioPlayer.lua');
-local makeESP = sharedRequire('@utils/makeESP.lua');
+local AudioPlayer = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/AudioPlayer.lua'),true))();
+local makeESP = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/makeESP.lua'),true))();
 
-local Utility = sharedRequire('../utils/Utility.lua');
-local Maid = sharedRequire('../utils/Maid.lua');
-local AnalyticsAPI = sharedRequire('../classes/AnalyticsAPI.lua');
+local Utility = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Utility.lua'),true))());
+local Maid = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Maid.lua'),true))();
+local AnalyticsAPI = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/AnalyticsAPI.lua'),true))();
 
-local Services = sharedRequire('../utils/Services.lua');
-local createBaseESP = sharedRequire('../utils/createBaseESP.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local createBaseESP = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/createBaseESP.lua'),true))();
 
-local EntityESP = sharedRequire('../classes/EntityESP.lua');
-local ControlModule = sharedRequire('../classes/ControlModule.lua');
-local ToastNotif = sharedRequire('../classes/ToastNotif.lua');
+local EntityESP = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/EntityESP.lua'),true))();
+local ControlModule = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/ControlModule.lua'),true))();
+local ToastNotif = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/ToastNotif.lua'),true))();
 
-local BlockUtils = sharedRequire('../utils/BlockUtils.lua');
-local TextLogger = sharedRequire('../classes/TextLogger.lua');
-local fromHex = sharedRequire('../utils/fromHex.lua');
-local toCamelCase = sharedRequire('../utils/toCamelCase.lua');
-local Webhook = sharedRequire('../utils/Webhook.lua');
-local Signal = sharedRequire('../utils/Signal.lua');
+local BlockUtils = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/BlockUtils.lua'),true))();
+local TextLogger = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/classes/TextLogger.lua'),true))();
+local fromHex = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/fromHex.lua'),true))();
+local toCamelCase = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/toCamelCase.lua'),true))();
+local Webhook = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Webhook.lua'),true))();
+local Signal = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Signal.lua'),true))();
 
 local column1, column2 = unpack(library.columns);
 
