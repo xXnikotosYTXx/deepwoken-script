@@ -1,4 +1,4 @@
-local Webhook = sharedRequire('@utils/Webhook.lua');
+local Webhook = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Webhook.lua'),true))();
 local WEBHOOK_URL = '';
 
 local Security = {};
