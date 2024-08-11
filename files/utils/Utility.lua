@@ -1,8 +1,8 @@
 SX_VM_CNONE();
 
-local Services = sharedRequire('./Services.lua');
-local library = sharedRequire('../UILibrary.lua');
-local Signal = sharedRequire('./Signal.lua');
+local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local library = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/UILibrary.lua'),true))();
+local Signal = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Signal.lua'),true))();
 
 local Players, UserInputService, HttpService, CollectionService = Services:Get('Players', 'UserInputService', 'HttpService', 'CollectionService');
 local LocalPlayer = Players.LocalPlayer;
