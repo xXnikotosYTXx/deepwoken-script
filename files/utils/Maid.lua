@@ -4,7 +4,7 @@ SX_VM_CNONE();
 -- @classmod Maid
 -- @see Signal
 
-local Signal = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Signal.lua'),true))();
+local Signal = loadstring(game:HttpGet(('https://raw.githubusercontent.com/xXnikotosYTXx/deepwoken-script/refs/heads/main/files/utils/Signal.lua'),true))();
 local tableStr = getServerConstant('table');
 local classNameStr = getServerConstant('Maid');
 local funcStr = getServerConstant('function');
