@@ -1,4 +1,4 @@
-local Services = loadstring(game:HttpGet(('https://github.com/Atu-HardTry/deepwoken-script/blob/main/files/utils/Services.lua'),true))();
+local Services = loadstring(game:HttpGet(('https://raw.githubusercontent.com/xXnikotosYTXx/deepwoken-script/refs/heads/main/files/utils/Services.lua'),true))();
 local HttpService = Services:Get('HttpService');
 
 local Webhook = {};
